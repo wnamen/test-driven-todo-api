@@ -45,7 +45,7 @@ $(document).ready(function() {
     }
   });
 
-  // listen for submit even on form
+  // listen for submit event on form
   $createTodo.on('submit', function (event) {
     event.preventDefault();
 
